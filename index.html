@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="es">
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<title>Práctica 13</title>
+<style>
+	.izq {
+	     text-align:left;
+		}
+	</style>	
+</head>
+<body>
+	
+<h1> Formulario de alta</h1>
+
+<table border="0" bordercolor="white" >
+	
+   <tr>
+       <th class = "izq" rowspan="1" align "left"> Nombres y apellidos <font color="red" >*</font></th>
+       <th class = "izq" colspan="3"> Dirección <font color="red" >*</font></th>
+		
+   </tr>
+
+   <tr>
+	<td><input type="text" name="nombreyap"></td>
+	<td colspan="3"><input type="text" name="direcc" style=" width: 290px; "></td>
+	 	
+   </tr>
+
+   <tr>
+	 <td class = "izq" rowspan="1" ><font size=2>Nombre</font></td>
+	 <td class = "izq"  colspan="3"><font size=2>Calle, número, piso, puerta</font></td>
+		
+   </tr>
+
+        <tr>
+	    <td><input type="text" name="nomb" style=" width: 300px; margin-right: 63px;"></td>
+	    <td><input type="text" name="callen" align="left" style=" width: 99px; " ></td>
+            <td><input type="text" name="pisop" style=" width: 157px; " ></td>
+	</tr>
+
+	<tr>
+	     <td class = "izq" rowspan="1" ><font size=2>Primer apellido</font></td>
+	     <td class = "izq" rowspan="1" ><font size=2>Código postal</font></td>
+	     <td class = "izq" rowspan="1" ><font size=2>Municipio</font></td>
+	</tr>
+
+        <tr>
+	     <td><input type="text" name="primerapellido" style=" width: 290px;"></td>
+	     <td>	
+		<select name="cp" id="cpo" form="cform" style=" width: 105px;" >
+  		<option value="1">   </option>
+		</select>
+	     </td>
+		
+	      <td>
+		<select name="mu" id="mu" form="iform" style=" width: 160px;">
+  		<option value="1"> </option>
+	    </select>
+	     </td>
+	</tr>
+
+	<tr>
+	    <td class = "izq" rowspan="1" ><font size=2>Segundo apellido</font></td>
+	    <td class = "izq" rowspan="1" ><font size=2>Provincia</font></td>
+	    <td class = "izq" rowspan="1" ><font size=2>País</font></td>
+	</tr>
+
+	<tr>
+             <th class = "izq"  rowspan="1">Email</th>
+	     <th class = "izq" colspan="3">Teléfono <font color="red" >*</font></th>
+	</tr>
+
+	<tr>
+	     <td><input type="emai" name="emai" style=" width: 300px;"></td>
+	     <td colspan="2"><input type="text" name="fijo" style=" width: 155px;" > <input type="text" name="mov" style=" width: 155px;" ></td>
+	</tr>
+
+	<tr>
+	     <td></td>
+	     <td  colspan="2" >
+	       <div style=" width: 125px; float:left;" ><font size=2>Fijo</font></div>
+	       <div style=" width: 150px; float: right;" ><font size=2>Móvil</font></div>
+	     </td>
+		
+	</tr>
+
+	
+</table>
+
+</body>
+
+</html>
